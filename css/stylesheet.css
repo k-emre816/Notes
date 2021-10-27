@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #444;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_clock {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(/img/image1.png);
+    background-size: cover;
+}
+
+.needle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    border-radius: 2px;
+}
+
+.hr {
+    width: 4px;
+    height: 20%;
+    background-color: yellow;
+}
+
+.min {
+    width: 4px;
+    height: 20%;
+    background-color: green;
+}
+
+.sec {
+    width: 1px;
+    height: 40%;
+    background-color: blue;
+}
