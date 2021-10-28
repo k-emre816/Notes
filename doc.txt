@@ -1,0 +1,21 @@
+A faire dans le terminal
+- ssh-keygen -t rsa -C "korkmaz.emre2004@gmail.com"
+Verifie que le clé a été créer:
+- cat C:\Users\pcevk/.ssh/id_rsa_emre.pub
+Ajouter cette clé ici:
+https://github.com/settings/keys
+A faire dans le terminal dans le projet:
+- git init
+- git config user.name "Emre"
+- git config user.email "korkmaz.emre2004@gmail.com"
+Ajouter la clé au projet:
+- git config core.sshCommand "ssh -i /c/Users\pcevk/.ssh/id_rsa_emre"
+Créer un repo sur son compte github et l'ajouter dans le projet comme ceci:
+git remote add origin https://github.com/k-emre816/horloje-js.git
+Créer une branche:
+- git checkout -b main
+Définir sa branche principal:
+- git branch -M main
+Préparer les fichier pour le prochain commit:
+- git add --intent-to-add .
+- git add --patch
