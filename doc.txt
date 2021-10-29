@@ -17,5 +17,6 @@ Créer une branche:
 Définir sa branche principal:
 - git branch -M main
 Préparer les fichier pour le prochain commit:
-- git add --intent-to-add .
-- git add --patch
+- git add --intent-to-add . ; git add --patch
+Pour changer l'url du repo
+- git remote set-url origin https://github.com/k-emre816/Clock-JS
