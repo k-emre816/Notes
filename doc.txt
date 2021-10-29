@@ -24,5 +24,9 @@ Push (premiere fois):
 - git push -u origin main
 Push:
 - git push
+Creer une nouvelle branch:
+- git checkout -b new_name
+Switch to another local branch:
+- git checkout branch_name
 Pour changer l'url du repo
 - git remote set-url origin https://github.com/k-emre816/Clock-JS
