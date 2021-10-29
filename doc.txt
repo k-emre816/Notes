@@ -24,6 +24,8 @@ Push (premiere fois):
 - git push -u origin main
 Push:
 - git push
+Mettre a jour sa branch local:
+- git pull
 Creer une nouvelle branch:
 - git checkout -b new_name
 Switch to another local branch:
