@@ -18,5 +18,11 @@ Définir sa branche principal:
 - git branch -M main
 Préparer les fichier pour le prochain commit:
 - git add --intent-to-add . ; git add --patch
+Commit:
+- git commit -m "edit doc file"
+Push (premiere fois):
+- git push -u origin main
+Push:
+- git push
 Pour changer l'url du repo
 - git remote set-url origin https://github.com/k-emre816/Clock-JS
